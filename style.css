@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+}
+body {
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display:grid;
+    grid-column-gap: 10px ;
+    grid-row-gap: 20px;
+    height: 100%;
+    width: 1000px;
+}
+.border{
+    border: 1px solid black;
+}
+.cobra {
+    grid-column: 4 / 28;
+    grid-row: 1 / 1;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.bannerwhite {
+    grid-column: 4 / 8;
+    grid-row: 2 / 2;
+    text-align: center;
+    text-emphasis: bold;
+    border-radius: 10px;
+    background: whitesmoke
+}
+.whiteitems {
+    grid-column: 4 / 8;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: whitesmoke
+}
+.white {
+    grid-column: 4 / 8;
+    grid-row: 2 / 10;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 10px;
+}
+.bannerblue {
+    grid-column: 8 / 12;
+    grid-row: 2 / 2;
+    text-align: center;
+    text-emphasis: bold;
+    border-radius: 10px;
+    background: lightblue;
+}
+.blue {
+    grid-column: 8 / 12;
+    grid-row: 2 / 10;
+    border-radius: 10px;
+}
+.blueitems {
+    grid-column: 8 / 12;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: lightblue;
+}
+.bannerblack {
+    grid-column: 12 / 16;
+    grid-row: 2 / 2;
+    text-align: center;
+    text-emphasis: bold;
+    border-radius: 10px;
+    background: rgb(65, 65, 65);
+}
+.black {
+    grid-column: 12 / 16;
+    grid-row: 2 / 10;
+    border-radius: 10px;
+}
+.blackitems {
+    grid-column: 12 / 16;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(65, 65, 65);
+}
+.bannerred {
+    grid-column: 16 / 20;
+    grid-row: 2 / 2;
+    text-align: center;
+    text-emphasis: bold;
+    border-radius: 10px;
+    background: lightcoral;
+}
+.reditems {
+    grid-column: 16 / 20;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: lightcoral;
+}
+.red {
+    grid-column: 16 / 20;
+    grid-row: 2 / 10; 
+    border-radius: 10px;
+}
+.bannergreen {
+    grid-column: 20 / 24;
+    grid-row: 2 / 2;
+    text-align: center;
+    border-radius: 10px;
+    background: forestgreen;
+}
+.green {
+    grid-column: 20 / 24;
+    grid-row: 2 / 10;
+    border-radius: 10px;
+}
+.greenitems {
+    grid-column: 20 / 24;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: forestgreen;
+}
+.bannerclear {
+    grid-column: 24 / 28;
+    grid-row: 2 / 2;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+}
+.clear {
+    grid-column: 24 / 28;
+    grid-row: 2 / 10;
+    border-radius: 10px;
+}
+.clearitems {
+    grid-column: 24 / 28;
+    grid-row: 3 / 10;
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+}
+.card {
+    text-align: center;
+    text-shadow: transparent;
+}
+.card:hover {
+    background: grey;
+}
